@@ -1,0 +1,44 @@
+<div class="banner">
+  <div class="row">
+
+    <div class="col-md-12">
+      <div class="text-banner">
+        <h1>CRIAÇÃO DE SITES E SOLUÇÕES PARA SEU <br> NEGÓCIO</h1>
+        <div class="btns">
+          <button type="button" class="btn ">Entre em contato</button>
+          <!--  <button type="button" class="btn ">Primary</button> -->
+        </div>
+     </div>
+   </div>
+ </div>
+</div>
+
+<!-- card -->
+<section class="container p-5">
+  <div class="text-align:center;">
+    <h2>A MELHOR SOLUÇÃO</h2>
+    <h3>COM NOSSOS SERVIÇOS WEB, VOCÊ ENCONTRA AS MELHORES FERRAMENTAS PARA O SEU NEGÓCIO.</h3>
+  </div>
+
+</section>
+
+<section class="container p-5" id="about">
+  <div class="row p-3" >
+  <div class="col-lg-3" *ngFor="let service of serviceData">
+        <div class="card">
+          <img src="{{service.serviceImg}}" alt="criação de sites">
+            <br>
+           <h2>{{service.serviceNome}}</h2>
+           <p>{{service.serviceDetals}}</p>
+           <span> A partir de <span> {{service.servicePrice | currency: 'BRL'}}</span></span>
+          
+        </div>
+        <br>
+      </div>
+  </div>
+</section>
+<!-- frame  -->
+<section>
+  <iframe src="https://teamdevs.netlify.app/"></iframe>
+
+</section>3

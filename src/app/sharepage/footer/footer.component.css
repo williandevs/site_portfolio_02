@@ -1,0 +1,30 @@
+
+
+.copy{
+    text-align: center;
+}
+
+footer{
+    overflow: hidden;
+    padding: 10px 20px;
+    background-color: #182549;
+    color: #fff;
+   
+ 
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.icones{
+    text-align: center;
+    
+}
+.icones i{
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
